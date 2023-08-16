@@ -1,0 +1,122 @@
+@import 'https://fonts.googleapis.com/css2?family=Outfit&display=swap';
+.attribution {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 11px;
+	gap: 1pt;
+	text-align: center;
+	padding: 0.5rem;
+	background-color: #00000059;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.attribution a {
+	color: #3e52a3;
+}
+.wrapper {
+	display: flex;
+	width: 100vw;
+	height: 100dvh;
+	padding: 9.5rem 0rem 9.4375rem;
+	justify-content: center;
+	align-items: center;
+	background: var(--light-grey, #d5e1ef);
+}
+._wrapper_7yfay_1 {
+	width: 20rem;
+	height: 31.0625rem;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	flex-direction: column;
+	border-radius: 1.25rem;
+	background: var(--white, #fff);
+	box-shadow: 0 25px 25px #0000000d;
+}
+._wrapper__qr_7yfay_14 {
+	position: relative;
+	width: 18rem;
+	height: 18rem;
+	border-radius: 0.625rem;
+	background: #2c7dfa;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+._wrapper__qr_7yfay_14:after,
+._wrapper__qr_7yfay_14:before {
+	content: '';
+	position: absolute;
+	width: 16.875rem;
+	height: 16.875rem;
+	border-radius: 16.875rem;
+	background: var(--blue-shade, #3685ff);
+}
+._wrapper__qr_7yfay_14:after {
+	top: -50%;
+	left: -50%;
+}
+._wrapper__qr_7yfay_14:before {
+	bottom: -50%;
+	right: -50%;
+}
+._wrapper__qr_image_7yfay_41,
+._wrapper__qr_7yfay_14 canvas {
+	z-index: 2;
+}
+._wrapper__content_7yfay_45 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+._wrapper__content_title_7yfay_52 {
+	color: var(--dark-navy, #1f314f);
+	text-align: center;
+	font-feature-settings:
+		'clig' off,
+		'liga' off;
+	font-family: Outfit;
+	font-size: 1.375rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+._wrapper__content_text_7yfay_63 {
+	color: var(--grey, #7d889e);
+	text-align: center;
+	font-feature-settings:
+		'clig' off,
+		'liga' off;
+	font-family: Outfit;
+	font-size: 0.9375rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.01175rem;
+	max-width: 16rem;
+}
+*,
+*:after,
+*:before {
+	padding: 0;
+	margin: 0;
+	font-family: Outfit, sans-serif;
+	box-sizing: border-box;
+}
+::root {
+	--light-grey: #d5e1ef;
+	--white: #fff;
+	--dark-navy: #1f314f;
+	--grey: #7d889e;
+	--blue-shade: #3685ff;
+}
