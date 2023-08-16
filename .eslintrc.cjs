@@ -13,6 +13,7 @@ module.exports = {
 	parserOptions: {
 		project: ['./tsconfig.json'],
 	},
+	ignorePatterns: [".eslintrc.cjs", "vite.config.ts"],
 	plugins: ['react-refresh'],
 	rules: {
 		'react-refresh/only-export-components': [
